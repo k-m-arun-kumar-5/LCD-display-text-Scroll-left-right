@@ -1,0 +1,238 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"62 C:\Program Files\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"27 C:\Program Files\Microchip\xc8\v1.44\sources\common\memcpy.c
+[v _memcpy memcpy `(*.4v  1 e 1 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.44\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.44\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"63 E:\embedded_C\PIC_codes\04_lcd\lcd_20\lcd20.X\lcd_20.c
+[v _main main `(v  1 e 1 0 ]
+"88
+[v _LCD_Running_Text_Display_Line1 LCD_Running_Text_Display_Line1 `(v  1 e 1 0 ]
+"167
+[v _LCD_Running_Text_Display_Line2 LCD_Running_Text_Display_Line2 `(v  1 e 1 0 ]
+"246
+[v _LCD_Write_Pulse LCD_Write_Pulse `(v  1 e 1 0 ]
+"253
+[v _LCD_Read_Pulse LCD_Read_Pulse `(v  1 e 1 0 ]
+"260
+[v _Write_LCD_Command_Cannot_Check_BF Write_LCD_Command_Cannot_Check_BF `(v  1 e 1 0 ]
+"268
+[v _Check_LCD_Busy Check_LCD_Busy `(v  1 e 1 0 ]
+"284
+[v _Write_LCD_Command Write_LCD_Command `(v  1 e 1 0 ]
+"294
+[v _Write_LCD_Data Write_LCD_Data `(v  1 e 1 0 ]
+"305
+[v _Delay_Time_By_Count Delay_Time_By_Count `(v  1 e 1 0 ]
+"309
+[v _Read_LCD_Command Read_LCD_Command `(ui  1 e 2 0 ]
+"316
+[v _LCD_Line_Select LCD_Line_Select `(v  1 e 1 0 ]
+"331
+[v _Data_Str_LCD_Disp Data_Str_LCD_Disp `(v  1 e 1 0 ]
+"344
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"288 C:\Program Files\Microchip\xc8\v1.44\include\pic16f887.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"350
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1538
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1600
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"3970
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"3972
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"3974
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"43 E:\embedded_C\PIC_codes\04_lcd\lcd_20\lcd20.X\lcd_20.c
+[v _lcd_buffer_line1 lcd_buffer_line1 `[16]uc  1 e 16 0 ]
+"45
+[v _lcd_buffer_line2 lcd_buffer_line2 `[16]uc  1 e 16 0 ]
+"46
+[v _line1_text_disp_finish_flag line1_text_disp_finish_flag `uc  1 e 1 0 ]
+[v _line2_text_disp_finish_flag line2_text_disp_finish_flag `uc  1 e 1 0 ]
+"48
+[v _read_command read_command `ui  1 e 2 0 ]
+"63
+[v _main main `(v  1 e 1 0 ]
+{
+"68
+[v main@text_str_right_len text_str_right_len `ui  1 a 2 28 ]
+[v main@text_str_left_len text_str_left_len `ui  1 a 2 26 ]
+"66
+[v main@text_str_left text_str_left `DC[7]uc  1 s 7 text_str_left ]
+"67
+[v main@text_str_right text_str_right `DC[7]uc  1 s 7 text_str_right ]
+"87
+} 0
+"4 C:\Program Files\Microchip\xc8\v1.44\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.24DCuc  1 a 1 wreg ]
+"6
+[v strlen@cp cp `*.24DCuc  1 a 1 6 ]
+"4
+[v strlen@s s `*.24DCuc  1 a 1 wreg ]
+"8
+[v strlen@s s `*.24DCuc  1 a 1 7 ]
+"13
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.44\sources\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+{
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+"15
+[v memset@p p `*.4uc  1 a 1 5 ]
+"8
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+[v memset@c c `i  1 p 2 0 ]
+[v memset@n n `ui  1 p 2 2 ]
+"18
+[v memset@p1 p1 `*.4v  1 a 1 6 ]
+"22
+} 0
+"167 E:\embedded_C\PIC_codes\04_lcd\lcd_20\lcd20.X\lcd_20.c
+[v _LCD_Running_Text_Display_Line2 LCD_Running_Text_Display_Line2 `(v  1 e 1 0 ]
+{
+[v LCD_Running_Text_Display_Line2@text_str text_str `*.24DCuc  1 a 1 wreg ]
+"172
+[v LCD_Running_Text_Display_Line2@cur_lcd_col cur_lcd_col `i  1 a 2 24 ]
+[v LCD_Running_Text_Display_Line2@cur_temp_index cur_temp_index `i  1 a 2 22 ]
+"167
+[v LCD_Running_Text_Display_Line2@text_str text_str `*.24DCuc  1 a 1 wreg ]
+[v LCD_Running_Text_Display_Line2@text_str_len text_str_len `DCui  1 p 2 10 ]
+[v LCD_Running_Text_Display_Line2@num_gaps_between_text_str num_gaps_between_text_str `DCui  1 p 2 12 ]
+[v LCD_Running_Text_Display_Line2@running_text_shift_direction running_text_shift_direction `DCui  1 p 2 14 ]
+"170
+[v LCD_Running_Text_Display_Line2@temp_text_str temp_text_str `[30]uc  1 s 30 temp_text_str ]
+"171
+[v LCD_Running_Text_Display_Line2@cur_char_in_str_index cur_char_in_str_index `i  1 s 2 cur_char_in_str_index ]
+"174
+[v LCD_Running_Text_Display_Line2@text_str text_str `*.24DCuc  1 a 1 21 ]
+"245
+} 0
+"88
+[v _LCD_Running_Text_Display_Line1 LCD_Running_Text_Display_Line1 `(v  1 e 1 0 ]
+{
+[v LCD_Running_Text_Display_Line1@text_str text_str `*.24DCuc  1 a 1 wreg ]
+"93
+[v LCD_Running_Text_Display_Line1@cur_lcd_col cur_lcd_col `i  1 a 2 24 ]
+[v LCD_Running_Text_Display_Line1@cur_temp_index cur_temp_index `i  1 a 2 22 ]
+"88
+[v LCD_Running_Text_Display_Line1@text_str text_str `*.24DCuc  1 a 1 wreg ]
+[v LCD_Running_Text_Display_Line1@text_str_len text_str_len `DCui  1 p 2 10 ]
+[v LCD_Running_Text_Display_Line1@num_gaps_between_text_str num_gaps_between_text_str `DCui  1 p 2 12 ]
+[v LCD_Running_Text_Display_Line1@running_text_shift_direction running_text_shift_direction `DCui  1 p 2 14 ]
+"91
+[v LCD_Running_Text_Display_Line1@temp_text_str temp_text_str `[30]uc  1 s 30 temp_text_str ]
+"92
+[v LCD_Running_Text_Display_Line1@cur_char_in_str_index cur_char_in_str_index `i  1 s 2 cur_char_in_str_index ]
+"95
+[v LCD_Running_Text_Display_Line1@text_str text_str `*.24DCuc  1 a 1 21 ]
+"165
+} 0
+"27 C:\Program Files\Microchip\xc8\v1.44\sources\common\memcpy.c
+[v _memcpy memcpy `(*.4v  1 e 1 0 ]
+{
+[v memcpy@d1 d1 `*.4v  1 a 1 wreg ]
+"31
+[v memcpy@s s `*.24DCuc  1 a 1 6 ]
+"30
+[v memcpy@d d `*.4uc  1 a 1 5 ]
+"32
+[v memcpy@tmp tmp `uc  1 a 1 4 ]
+"27
+[v memcpy@d1 d1 `*.4v  1 a 1 wreg ]
+[v memcpy@s1 s1 `*.24DCv  1 p 1 0 ]
+[v memcpy@n n `ui  1 p 2 1 ]
+"34
+[v memcpy@d1 d1 `*.4v  1 a 1 7 ]
+"41
+} 0
+"331 E:\embedded_C\PIC_codes\04_lcd\lcd_20\lcd20.X\lcd_20.c
+[v _Data_Str_LCD_Disp Data_Str_LCD_Disp `(v  1 e 1 0 ]
+{
+[v Data_Str_LCD_Disp@lcd_line_buffer lcd_line_buffer `*.4DCuc  1 a 1 wreg ]
+"333
+[v Data_Str_LCD_Disp@cur_char_in_text_str_index cur_char_in_text_str_index `ui  1 a 2 8 ]
+"331
+[v Data_Str_LCD_Disp@lcd_line_buffer lcd_line_buffer `*.4DCuc  1 a 1 wreg ]
+[v Data_Str_LCD_Disp@lcd_line_buffer_len lcd_line_buffer_len `DCui  1 p 2 2 ]
+[v Data_Str_LCD_Disp@line line `DCui  1 p 2 4 ]
+"336
+[v Data_Str_LCD_Disp@lcd_line_buffer lcd_line_buffer `*.4DCuc  1 a 1 7 ]
+"341
+} 0
+"294
+[v _Write_LCD_Data Write_LCD_Data `(v  1 e 1 0 ]
+{
+[v Write_LCD_Data@lcd_data lcd_data `DCuc  1 a 1 wreg ]
+[v Write_LCD_Data@lcd_data lcd_data `DCuc  1 a 1 wreg ]
+"296
+[v Write_LCD_Data@lcd_data lcd_data `DCuc  1 a 1 12 ]
+"303
+} 0
+"316
+[v _LCD_Line_Select LCD_Line_Select `(v  1 e 1 0 ]
+{
+[v LCD_Line_Select@line line `DCui  1 p 2 0 ]
+"329
+} 0
+"344
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"360
+} 0
+"260
+[v _Write_LCD_Command_Cannot_Check_BF Write_LCD_Command_Cannot_Check_BF `(v  1 e 1 0 ]
+{
+[v Write_LCD_Command_Cannot_Check_BF@lcd_cmd lcd_cmd `DCui  1 p 2 8 ]
+"266
+} 0
+"284
+[v _Write_LCD_Command Write_LCD_Command `(v  1 e 1 0 ]
+{
+[v Write_LCD_Command@lcd_cmd lcd_cmd `DCui  1 p 2 12 ]
+"293
+} 0
+"268
+[v _Check_LCD_Busy Check_LCD_Busy `(v  1 e 1 0 ]
+{
+"283
+} 0
+"309
+[v _Read_LCD_Command Read_LCD_Command `(ui  1 e 2 0 ]
+{
+"314
+} 0
+"246
+[v _LCD_Write_Pulse LCD_Write_Pulse `(v  1 e 1 0 ]
+{
+"252
+} 0
+"253
+[v _LCD_Read_Pulse LCD_Read_Pulse `(v  1 e 1 0 ]
+{
+"259
+} 0
+"305
+[v _Delay_Time_By_Count Delay_Time_By_Count `(v  1 e 1 0 ]
+{
+[v Delay_Time_By_Count@time_delay time_delay `ul  1 p 4 0 ]
+"308
+} 0
