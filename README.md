@@ -1,6 +1,6 @@
 ﻿Description :
 =============
-I,  K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using PIC16F887 (Microchip's 8 bit microcontroller in PIC16 family) such as in LCD, running text is displayed either to left or to right with specified number of gaps between
+I,  K.M. Arun Kumar alias Arunkumar Murugeswaran, just shared my works, which I worked as learning path and practiced Embedded C programming using PIC16F887 (Microchip's 8 bit microcontroller in PIC16 family) such as in LCD, running text is displayed to left and to right with specified number of gaps between
 consecutive same text display.
 
 CAUTION:
